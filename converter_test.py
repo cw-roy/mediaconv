@@ -2,11 +2,10 @@
 """Converts various input video file types to .mp4 format."""
 
 import time
+from alive_progress import alive_bar
 from pyffmpeg import FFmpeg
 
 ff = FFmpeg()
-ff.loglevel = "panic"
-
 
 class FFMConverter:
     """FFmpeg class"""
