@@ -3,6 +3,9 @@
 *.flv
 *.mkv
 *.mp4
+*.mpg
+*.mov
+*.ogx
 mediaconv/
 
 # Byte-compiled / optimized / DLL files
