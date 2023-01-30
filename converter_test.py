@@ -55,8 +55,8 @@ class FFMConverter:
 
 ffm = FFMConverter()
 
-ffm.to_mp4_pyffmpeg("sample-ogv-file.ogx", "pyffmpeg_converted_ogv.mp4")
+ffm.to_mp4_pyffmpeg("sample_3gp.3gp", "pyffmpeg_converted_3gp.mp4")
 
-ffm.to_mp4_options("sample-ogv-file.ogx", "options_converted_ogv.mp4")
+ffm.to_mp4_options("sample_3gp.3gp", "options_converted_3gp.mp4")
 
-ffm.to_mp4_options_copy("sample-ogv-file.ogx", "options_copyconverted_ogv.mp4")
+ffm.to_mp4_options_copy("sample_3gp.3gp", "options_copyconverted_3gp.mp4")
