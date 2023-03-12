@@ -7,6 +7,7 @@
 *.mov
 *.ogx
 mediaconv/
+video1mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
