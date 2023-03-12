@@ -41,7 +41,8 @@ class FFMConverter:
     def to_mp4_options_copy(self, input_file, output_file):
         """Using a specific 'copy' .options method to directly transcode original
         video and audio. Seems to have no effect on file size or quality but
-        processes quite a bit faster than either of the other methods."""
+        processes quite a bit faster than either of the other methods.  Does not
+        work for .ogx at this time."""
         begin = time.perf_counter()
         try:
             ff.options(f"-i {input_file} -c:v copy -c:a copy {output_file}")
